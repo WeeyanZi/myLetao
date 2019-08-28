@@ -1,10 +1,10 @@
 NProgress.configure(false);
 
-$('document').ajaxStart(function () {
+$(document).ajaxStart(function () {
     NProgress.start();
 });
 
-$('document').ajaxStop(function () {
+$(document).ajaxStop(function () {
     NProgress.done();
 });
 

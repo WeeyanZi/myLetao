@@ -22,7 +22,8 @@ ul {
 .mt_150 {
     margin-top: 150px;
 }
-.red{
+
+.red {
     color: #A94442;
 }
 
@@ -39,7 +40,7 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 11;
     transition: all 1s;
 }
 
@@ -108,7 +109,7 @@ ul {
     transition: all 1s;
 }
 
-.lt_main.hidemenu{
+.lt_main.hidemenu {
     padding-left: 0;
 }
 
@@ -122,8 +123,10 @@ ul {
     padding-left: 180px;
     line-height: 50px;
     transition: all 1s;
+    z-index: 10;
 }
-.lt_main .lt_topbar.hidemenu{
+
+.lt_main .lt_topbar.hidemenu {
     padding-left: 0;
 }
 
@@ -137,4 +140,10 @@ ul {
 
 .lt_main .breadcrumb {
     margin-top: 20px;
+}
+
+.echarts1,
+.echarts2 {
+    width: 48%;
+    height: 400px;
 }
